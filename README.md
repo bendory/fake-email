@@ -15,3 +15,8 @@ origin of sourcecode:
 5. Commit malicious changes.
 6. Push up to GitHub.
 7. Propose a PR with malicious content.
+
+## Demo
+
+In the case of this repo, the [commit history](https://github.com/bendory/fake-email/commits/main) shows a [first commit](https://github.com/bendory/fake-email/commit/a25a11229686c607366eed7f201747de8a629a51) from Evil Hacker.
+That was in fact me following the above setup to demonstrate the technique.
