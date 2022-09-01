@@ -20,3 +20,8 @@ origin of sourcecode:
 
 In the case of this repo, the [commit history](https://github.com/bendory/fake-email/commits/main) shows a [first commit](https://github.com/bendory/fake-email/commit/a25a11229686c607366eed7f201747de8a629a51) from Evil Hacker.
 That was in fact me following the above setup to demonstrate the technique.
+
+Even worse, I created a GitHub account for @TheonTully, and then I used the
+above technique to push this commit using Theon's email address. In the
+[commit history](https://github.com/bendory/fake-email/commits/main), the commit
+is designated as his.
