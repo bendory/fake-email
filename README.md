@@ -41,3 +41,13 @@ have to decide if the trade-off is right for your repository.
 GitHub helpfully [documents this behavior as a feature](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-email-preferences/setting-your-commit-email-address#setting-your-email-address-for-every-repository-on-your-computer), stating: "Set an email address in Git. You can use your GitHub-provided noreply email address **or any email address.** (emphasis added)
 
 This behavior is of course against [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service), but since when did ToS stop a malicious hacker?
+
+## Background and Notes
+
+After setting up this repo, I discovered [this prior art](https://github.com/azeemshaikh38/tensrflow/commits/main) which attributes
+commits to real GitHub users. The https://github.com/azeemshaikh38/tensrflow repo also typo squats on Tensorflow.
+
+Note that at its root, this is an issue with `git`, not GitHub -- but GitHub could provide options to require signed commits
+and better enforcement of identity verification. At a minimum, if user A pushes commits to GitHub that are attributed to user B's
+verified GitHub email (or includes user B's changes in user A's PR to some other repo), GitHub could notifify user B that this
+event occured!
