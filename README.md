@@ -44,8 +44,10 @@ This behavior is of course against [GitHub Terms of Service](https://docs.github
 
 ## Background and Notes
 
-After setting up this repo, I discovered [this prior art](https://github.com/azeemshaikh38/tensrflow/commits/main) which attributes
-commits to real GitHub users. The https://github.com/azeemshaikh38/tensrflow repo also typo squats on Tensorflow.
+After setting up this repo, I discovered some prior art:
+
+- https://github.com/azeemshaikh38/tensrflow/commits/main) attributes commits to real GitHub users and also typo squats on Tensorflow.
+- https://news.ycombinator.com/item?id=30503148 has a discussion from ~6m ago
 
 Note that at its root, this is an issue with `git`, not GitHub -- but GitHub could provide options to require signed commits
 and better enforcement of identity verification. At a minimum, if user A pushes commits to GitHub that are attributed to user B's
