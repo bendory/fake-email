@@ -42,6 +42,8 @@ GitHub helpfully [documents this behavior as a feature](https://docs.github.com/
 
 This behavior is of course against [GitHub Terms of Service](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service), but since when did ToS stop a malicious hacker?
 
+See Also: [How and why to sign Git commits](https://withblue.ink/2020/05/17/how-and-why-to-sign-git-commits.html)
+
 ## Background and Notes
 
 After setting up this repo, I discovered some prior art:
